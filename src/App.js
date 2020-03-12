@@ -1,7 +1,11 @@
 import React from 'react';
+import './App.css';
+
+import TechList from './components/TechList';
+
 
 function App() {
-    return <h2>Hello Flp!</h2>
+    return <TechList />
 }
 
 export default App;
